@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto Serif", serif;;
+    
+}
+header {
+    background-color: #452626;
+    color: rgb(255, 252, 252);
+    padding: 5px;
+    text-align:end;
+}
+
+nav ul {
+    list-style:circle;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:double;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2p;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 1em;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 150px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: none;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    text-align: left;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
